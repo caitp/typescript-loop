@@ -22,6 +22,11 @@ var kPackages = [
   {
     package: "typescript",
     files: ["bin/typescriptServices.js", "LICENSE.txt"],
+  },
+  {
+    package: "bootstrap",
+    files: ["dist/css/bootstrap.min.css", "dist/css/bootstrap.css.map",
+            "dist/css/bootstrap.css", "LICENSE"]
   }
 ];
 
