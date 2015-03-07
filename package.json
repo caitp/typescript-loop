@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "http-server": "^0.7.5",
-    "bluebird": "^2.9.13"
+    "bluebird": "^2.9.13",
+    "rimraf": "^2.3.1"
   }
 }
