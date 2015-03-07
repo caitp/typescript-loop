@@ -30,7 +30,10 @@ var kPackages = [
   },
   {
     package: "jquery",
-    files: ["dist/jquery.js", "dist/jquery.min.js", "dist/jquery.min.map"]
+    files: [
+      "dist/jquery.js", "dist/jquery.min.js", "dist/jquery.min.map",
+      "MIT-LICENSE.txt"
+    ]
   }
 ];
 
