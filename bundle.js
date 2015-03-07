@@ -13,7 +13,11 @@ var path = require("path");
 var kPackages = [
   {
     package: "codemirror",
-    files: ["lib/codemirror.css", "lib/codemirror.js", "LICENSE"],
+    files: [
+      "lib/codemirror.css", "lib/codemirror.js",
+      "mode/javascript/javascript.js", "mode/javascript/typescript.html",
+      "LICENSE"
+    ],
   },
   {
     package: "typescript",
@@ -39,12 +43,17 @@ function copyPackage(p) {
   function copyInPackageFiles() {
     var files = (Array.isArray(p.files) && p.files || []).map(function(file) {
       var nodeFile = path.resolve(nodeModuleDir, file);
-      var thirdPartyFile = path.resolve(moduleDir, path.basename(file));
+      var thirdPartyFile = path.resolve(moduleDir, file);
       var dirname = path.dirname(nodeFile);
       function readFile() {
-        return fs.readFileAsync(nodeFile);
+        return fs.readFileAsync(nodeFile).catch(function(err) {
+          console.log("  - error packaging `" + nodeFile + "`:\n" + err);
+        });
       }
       return mkdirp(dirname).
+        then(function() {
+          return mkdirp(path.dirname(thirdPartyFile));
+        }).
         then(readFile, readFile).
         then(function(data) {
           return fs.writeFileAsync(thirdPartyFile, data);
