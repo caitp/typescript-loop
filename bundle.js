@@ -26,7 +26,7 @@ var kPackages = [
   {
     package: "bootstrap",
     files: ["dist/css/bootstrap.min.css", "dist/css/bootstrap.css.map",
-            "dist/css/bootstrap.css", "LICENSE"]
+            "dist/css/bootstrap.css", "dist/js/bootstrap.min.js", "LICENSE"]
   }
 ];
 
