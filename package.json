@@ -17,5 +17,7 @@
   "dependencies": {
     "typescript": "^1.4.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "http-server": "^0.7.5"
+  }
 }
