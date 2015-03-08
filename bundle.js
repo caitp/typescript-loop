@@ -34,6 +34,10 @@ var kPackages = [
       "dist/jquery.js", "dist/jquery.min.js", "dist/jquery.min.map",
       "MIT-LICENSE.txt"
     ]
+  },
+  {
+    package: "bluebird",
+    files: ["js/browser/bluebird.min.js", "LICENSE"]
   }
 ];
 
