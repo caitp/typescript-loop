@@ -12,6 +12,7 @@ body {
 
 .CodeMirror {
   height: 100% !important;
+  padding: 0!important;
 }
 
 .container, .panel {
@@ -20,10 +21,12 @@ body {
 
 .panel-body {
   height: 70%;
+  padding: 0!important;
 }
 
 .panel-body > div {
   height: 100%;
+  padding: 0!important;
 }
 
 .eval-col {
@@ -36,6 +39,10 @@ body {
   white-space: pre;
   margin-bottom: .2em;
   padding: .2em .5em;
+}
+
+.alert .glyphicon:before {
+  padding-right: .3em;
 }
 
 .alert-print {
