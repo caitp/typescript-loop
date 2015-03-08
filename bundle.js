@@ -26,7 +26,13 @@ var kPackages = [
   {
     package: "bootstrap",
     files: ["dist/css/bootstrap.min.css", "dist/css/bootstrap.css.map",
-            "dist/css/bootstrap.css", "dist/js/bootstrap.min.js", "LICENSE"]
+            "dist/css/bootstrap.css", "dist/js/bootstrap.min.js",
+            "dist/fonts/glyphicons-halflings-regular.eot",
+            "dist/fonts/glyphicons-halflings-regular.svg",
+            "dist/fonts/glyphicons-halflings-regular.ttf",
+            "dist/fonts/glyphicons-halflings-regular.woff",
+            "dist/fonts/glyphicons-halflings-regular.woff2",
+            "LICENSE"]
   },
   {
     package: "jquery",
