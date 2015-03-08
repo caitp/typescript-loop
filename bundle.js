@@ -37,7 +37,10 @@ var kPackages = [
   },
   {
     package: "bluebird",
-    files: ["js/browser/bluebird.min.js", "LICENSE"]
+    files: [
+      "js/browser/bluebird.min.js", "js/browser/bluebird.js",
+      "LICENSE"
+    ]
   }
 ];
 
