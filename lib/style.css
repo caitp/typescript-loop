@@ -1,5 +1,13 @@
 .error {
-  box-shadow: 0px 5px 10px #FF0000;
+  box-shadow: 0px 5px 10px #D8000C;
+}
+
+.warning {
+  box-shadow: 0px 5px 10px #FEEFB3;
+}
+
+.success {
+  box-shadow: 0px 5px 10px #DFF2BF;
 }
 
 html, body {
