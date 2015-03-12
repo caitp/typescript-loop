@@ -15,7 +15,7 @@ html, body {
 }
 
 body {
-  padding: 50px 0;
+  padding: 60px 0;
 }
 
 .CodeMirror {
@@ -61,4 +61,20 @@ body {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffeeeeee', endColorstr='#ffdbdbdb', GradientType=0);
   border-color: #c8c8c8;
+}
+
+.float-right {
+  float: right;
+}
+
+.version-pill {
+  margin: 0;
+}
+.version-pill > a {
+  border-radius: 50px!important;
+  background-color: #337ab7!important;
+  padding-top: 12px!important;
+  padding-bottom: 12px!important;
+  margin-top: 3px!important;
+  margin-right:5px!important;
 }
