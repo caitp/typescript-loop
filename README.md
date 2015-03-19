@@ -1,4 +1,8 @@
-#typescript-loop
+typescript-loop
+===============
+
+[![devDependency Status](https://david-dm.org/caitp/typescript-loop/dev-status.svg)](https://david-dm.org/caitp/typescript-loop#info=devDependencies)
+
 
 Write, compile and evaluate compiled TypeScript, in your browser!
 
