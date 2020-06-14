@@ -16,7 +16,7 @@
   "license": "MIT",
   "devDependencies": {
     "bluebird": "2.9.13",
-    "bootstrap": "3.3.2",
+    "bootstrap": "3.4.1",
     "codemirror": "5.0.0",
     "http-server": "0.7.5",
     "jquery": "2.1.3",
